@@ -1,0 +1,155 @@
+@import url("./font-config.css");
+@import url("./header.css");
+@import url("./footer.css");
+
+a {
+    cursor: pointer;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+}
+
+
+.container-head {
+    background: #FBFBFB;
+    height: 467px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 90px;
+}
+
+.container-head-text h1 {
+    font-family: 'Inter Bold', sans-serif;
+    font-size: 60px;
+    color: black;
+    
+}
+
+.container-head-text h1 img {
+    position: relative;
+    bottom: -20px;
+}
+
+
+.container-head-text_p {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    color: #4A5568;
+}
+
+.container-card {
+    display: grid;
+    width: 90%;
+    margin: 40px 5%;
+    row-gap: 40px;
+    column-gap: 35px;
+    grid-template-rows: auto;
+}
+
+.card-grid {
+    background-color: #FFF;
+    border: 1px #E2E2E2 solid;
+    box-shadow: 0px 5px 4px 0px #DDDDDD40;
+    border-radius: 5px;
+}
+
+.card-grid_img {
+    width: 100%;
+}
+
+.card-grid-container {
+    margin: 15px;
+}
+
+.container-first {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.container-first img {
+    border-radius: 0 5px 5px 0;
+    object-fit:cover;
+}
+
+.container-first-text {
+    margin: 30px 5%;
+}
+
+.container-first-text-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-first-text-bottom a {
+    font-family: "Inter Bold", sans-serif;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.card-text-title {
+    font-family: "Inter Bold", sans-serif;
+    font-size: 30px;
+    color: #2D3748;
+}
+
+.card-text-about {
+    font-family: "Inter", sans-serif;
+    color: #718096;
+    font-size: 14px;
+}
+
+.card-date {
+    font-family: "Inter", sans-serif;
+    color: #718096;
+    font-size: 12px;
+}
+
+.card-button_read {
+    font-family: "Inter Bold", sans-serif;
+    font-size: 12px;
+}
+
+.container-learn {
+    margin: 0 5%;
+    display: flex;
+    width: 90%;
+    background-color: #F7FAFC;
+}
+
+.container-learn-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% calc(450px - (450px - 60px));
+}
+
+.container-learn img {
+    object-fit: cover;
+}
+
+.button-link {
+    font-family: "Inter Bold", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    background-color: #6B46C1;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 40px 5% 40px calc(95% - 130px);
+}
+
+
+
+

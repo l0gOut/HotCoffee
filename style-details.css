@@ -1,0 +1,85 @@
+@import url("./font-config.css");
+@import url("./header.css");
+@import url("./footer.css");
+
+.main {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.main img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.container-text {
+    margin: 0 5%;
+}
+
+.container-text-title {
+    font-family: "Inter Bold", sans-serif;
+    font-size: 45px;
+    color: #2D3748;
+}
+
+.container-text-detail {
+    display: flex;
+    column-gap: 20px;
+    font-size: 18px;
+
+}
+
+.text-detail-name {
+    font-family: "Inter Bold", sans-serif;
+    color: #2D3748;
+}
+
+.text-detail-date {
+    font-family: "Inter", sans-serif;
+    color: #718096;
+}
+
+hr {
+    border: 1px #E8E7E7 solid;
+    margin: 35px 0;
+}
+
+.container-text__text, .container-text__translation {
+    color: #718096;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.container-text__text {
+    margin-top: 0;
+}
+
+.container-text__translation {
+    margin-bottom: 0;
+}
+
+.section {
+    font-family: "Inter Bold", sans-serif;
+    color: #2D3748;
+    font-weight: 30px;
+}
+
+.container-mini-section {
+    font-family: "Inter Bold", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #2D3748;
+
+}
+
+.button-home-page {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    right: 75px;
+    bottom: 75px;
+}
+
+
+
